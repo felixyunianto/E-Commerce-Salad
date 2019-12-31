@@ -16,12 +16,12 @@
                             {{__('admin_pages.publish_your_products')}}
                         </h3>
                     </div>
-                    <div class="md-form available-translations">
+                    <!-- <div class="md-form available-translations">
                         <span>{{__('admin_pages.choose_locale')}}</span>
                         @foreach ($locales as $locale)
                         <button type="button" data-locale-change="{{$locale}}" class="btn btn-outline-secondary waves-effect locale-change @if ($currentLocale == $locale) active @endif">{{$locale}}</button>
                         @endforeach
-                    </div>
+                    </div> -->
                     <hr>
                     @foreach ($locales as $locale)
                     @php $lKey = false; if($product['translations'] != null) { $lKey = array_search($locale, array_column($product['translations'], 'locale')); } @endphp

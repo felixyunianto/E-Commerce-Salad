@@ -4,7 +4,7 @@
 <div class="row">
     <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
         <div class="add-slider">
-            <button class="btn btn-sm btn-secondary waves-effect waves-light pull-right" data-toggle="modal" data-target="#modalAddSlide">
+            <button class="btn btn-sm btn-secondary  pull-right" data-toggle="modal" data-target="#modalAddSlide">
                 {{__('admin_pages.add_new_slide')}}
             </button>
             <div class="clearfix"></div>
@@ -21,7 +21,7 @@
                 <a href="{{$slider->link}}" target="_blank">{{$slider->link}}</a>
             </span>
             <span class="position z-depth-2">{{$slider->position}}</span>
-            <a href="{{lang_url('admin/delete/slider/'.$slider->id)}}" class="btn btn-sm btn-secondary waves-effect waves-light confirm delete" data-my-message="{{__('admin_pages.are_u_sure_delete_s')}}">
+            <a href="{{lang_url('admin/delete/slider/'.$slider->id)}}" class="btn btn-sm btn-secondary waves-effect confirm delete" data-my-message="{{__('admin_pages.are_u_sure_delete_s')}}">
                 <i class="fa fa-trash mt-0"></i>
             </a>
         </div>

@@ -23,7 +23,7 @@
                 <div class="row top-part">
                     <div class="col-sm-3 col-md-3">
                         <a href="{{ lang_url('/') }}" class="logo-container">
-                            <img src="{{asset('storage/ExtractiLogo.png')}}" class="img-responsive logo" alt="{{ $head_title }}">
+                            <img src="img/felixlogo.png" class="img-responsive logo" alt="{{ $head_title }}">
                         </a>
                     </div>
                     <div class="col-sm-3 col-md-4">
@@ -35,14 +35,7 @@
                         </form>
                     </div>
                     <div class="col-sm-3 col-md-3">
-                        <div class="phone-call">
-                            <img src="{{ asset('img/phone.png') }}" alt="{{ $head_title }}">
-                            <div class="right">
-                                <p>{{__('public_pages.phone_order')}}</p>
-                                <span>0888 888 888</span>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
+                        
                     </div>
                     <div class="col-sm-3 col-md-2">
                         <div class="user">
@@ -107,9 +100,8 @@
                         <ul class="nav navbar-nav navbar-center">
                             <li><a href="{{ lang_url('products') }}">{{__('public_pages.products')}}</a></li>
                             <li><a href="{{ lang_url('checkout') }}">{{__('public_pages.checkout')}}</a></li>
-                            <li><a href="{{ lang_url('contacts') }}">{{__('public_pages.contacts')}}</a></li>
                         </ul>
-                        <div class="nav navbar-nav navbar-right">
+                        <!-- <div class="nav navbar-nav navbar-right">
                             <div class="dropdown">
                                 <button class="btn btn-lang dropdown-toggle" type="button" data-toggle="dropdown">
                                     {{ app()->getLocale() }}
@@ -121,7 +113,7 @@
                                     @endforeach
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </nav>
@@ -129,17 +121,17 @@
         @yield('content')
         <footer>
             <div class="social">
-                <a href=""><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a>
+                
             </div>
             <div class="pages">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-6 col-sm-3">
-                            <ul>
+                            <!-- <ul>
                                 <li class="header">GMMB Solutions</li>
                                 <li><a href="">About us</a></li>
                                 <li><a href="">Firm info</a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -148,16 +140,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
-                            Copyright 2017 yourfarma.eu
-                        </div>
-                        <div class="col-sm-6">
-                            При възникване на спор, свързан с покупка онлайн, можете да ползвате сайта ОРС
+                            Copyright &copy;2019  Healthy Salad
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-        <div class="fast-order hidden-xs">
+        <!-- <div class="fast-order hidden-xs">
             <div class="inner">
                 <h2>{{__('public_pages.fast_order')}}</h2>
                 <form method="POST" id="go-fast-order" action="{{ lang_url('fast-order') }}">
@@ -179,7 +168,7 @@
                 </form>
                 <div class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
             </div>
-        </div>
+        </div> -->
         <a class="fast-order-btn visible-xs">
             {{__('public_pages.fast_order')}}
         </a>

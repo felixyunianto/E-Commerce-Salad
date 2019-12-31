@@ -67,12 +67,7 @@
                                         <p>{{__('admin_pages.users')}}</p>
                                     </a> 
                                 </li>
-                                <li class="bottom">
-                                    <a href="https://github.com/kirilkirkov/Shopping-Cart-Solution-Laravel" target="_blank" class="btn waves-effect waves-light">
-                                        <i class="material-icons">code</i>
-                                        <p>GET SOURCE</p>
-                                    </a> 
-                                </li>
+                                
                             </ul>
                         </div>
                         <div class="col-sm-9 col-md-9 col-lg-10 col-sm-offset-3 col-md-offset-3 col-lg-offset-2 right-side">
@@ -128,24 +123,10 @@
                 <div class="row"> 
                     <div class="col-sm-9 col-md-9 col-lg-10 col-sm-offset-3 col-md-offset-3 col-lg-offset-2">
                         <ul class="nav">
-                            <li>
-                                <a href="{{ lang_url('admin/publish') }}">
-                                    {{__('admin_pages.publish')}}
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ lang_url('admin/products') }}">
-                                    {{__('admin_pages.products')}}
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ lang_url('admin/categories') }}">
-                                    {{__('admin_pages.categories')}}
-                                </a>
-                            </li>
+                            
                             <li class="in-right">
                                 <a href="https://github.com/kirilkirkov" target="_blank">
-                                    Github <i class="fa fa-github" aria-hidden="true"></i> :: Kiril Kirkov
+                                    Copyright &copy;2019  Healthy Salad
                                 </a>
                             </li>
                         </ul>
